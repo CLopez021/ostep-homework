@@ -46,7 +46,7 @@ class Forker:
                  leaf_only, local_reparent, print_style, solve):
         self.fork_percentage = fork_percentage
         self.max_actions = actions
-        self.action_list = action_list
+        self.action_list = action_list  
         self.show_tree = show_tree
         self.just_final = just_final
         self.leaf_only = leaf_only
